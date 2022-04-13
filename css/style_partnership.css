@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+img{border: 0; max-width: 100%;}
+ol, ul, li{list-style-type: none;}
+a{text-decoration: none;}
+a:link{color: #f5f3e7; }
+a:visited{color: #f5f3e7;}
+a:hover{color: darkorange;}
+a:active{color: red;}
+ul li{
+    float: left;
+    margin-right: 10px;
+}
+
+/*전체 화면*/
+#wrap{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+#container{
+    width: 100%;
+}
+.sub_title_pt{
+    width: 100%;
+    height: 170px;
+    background: #ffffff;
+}
+.sub_title_bg_pt{
+    background: url(../image/sub/ms_sub_ttl_bg.jpg)
+}
+.sub_title_inner_pt{
+    width: 1100px;
+    height: 170px;
+    margin: 0 auto;
+    position: relative;
+}
+.sub_title_inner_pt h2{
+    font: bold 36px Avenir, Arial, georgia;
+    color: #222222;
+    padding-top: 116px;
+    position: relative;
+}
+.sub_title_inner_partnership{
+    width: 200px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: top;
+    max-width: 100%;
+}
+
+.smap_pt{
+    position: absolute;
+    right: 0;
+    top: 127px;
+    font-size: 11pt;
+}
+.smap li a:link{color: white;}
+.smap li a:visited{color: white;}
+.smap li a:hover{color: darkorange;}
+.smap li a:active{color: red;}
+
+.contents_wrap_pt{
+    left: 50%;
+    margin: 50px 0 0 -550px;
+    position: relative;
+    width: 1100px;
+}
+.contents_pt{
+    float: left;
+    width: 830px;
+    margin-bottom: 90px;
+}
+.partnership_contents_pt p{
+    margin-bottom: 40px;
+}
+.news_box1{
+    padding-left: 127px;
+    background: url(../image/sub/icon_new_psManage.png) 0 0 no-repeat;
+    background-size: 11.5% auto;
+    margin-bottom: 40px;
+}
+.news_box1 dl dt{
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.news_box1 dl dd{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.news_box2{
+    padding-left: 127px;
+    background: url(../image/sub/icon_new_psLease.png) 0 0 no-repeat;
+    background-size: 11.5% auto;
+    margin-bottom: 40px;
+}
+.news_box2 dl dt{
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.news_box2 dl dd{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+section.news_box2 dl dd ul li{
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    color: #666;
+    font-size: 14px;
+}
+.news_box2_info{
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 20px;
+}
+.news_box2_info p.title{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+.news_box2_info p.txt{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.news_box3{
+    padding-left: 127px;
+    background: url(../image/sub/icon_new_psSuggestion.png) 0 0 no-repeat;
+    background-size: 11.5% auto;
+    margin-bottom: 40px;
+}
+.news_box3 dl dt{
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.news_box3 dl dd{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.news_box3_info{
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.news_box3_info p.title{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+.news_box3_info ol{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.news_box3_info li{
+    margin-left: 17px;
+}
+.news_box3_agree{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 20px 0;
+}
+.news_box3_agree ul{
+    float: right;
+}
+p.news_btn{
+    background: #e2c383;
+    border: 1px solid #bb9f65;
+    height: 28px;
+    width: 131px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+p.news_btn a{
+    display: block;
+    font-size: 12px;
+    color: #222;
+    height: 28px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+.navi_pt{
+    float: right;
+    font-weight: bold;
+    width: 220px;
+    margin-bottom: 90px;
+}
+.navi_pt{
+    float: right;
+    font-weight: bold;
+    width: 220px;
+    margin-bottom: 90px;
+}
+.navi_pt > ul{
+    border-top: 2px solid #222;
+}
+.navi_pt > ul > li{
+    border-bottom: 1px solid #ddd;
+    width: 220px;
+    float: none;
+    margin-right: 0;
+}
+.navi_pt > ul > li > a{
+    color: #444;
+    display: block;
+    font-size: 14px;
+    padding: 20px 30px 20px 15px;
+    position: relative;
+    width: 220px;
+}
+.navi_pt > ul > li > a:hover{
+    color: #006633;
+    text-decoration: underline;
+}
+/**---------------------------------1099px입니다--------------------------------------------**/
+@media (max-width:1099px){
+    .sub_title_inner_pt{
+        width: 96%;
+        height: 170px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .contents_wrap_pt {
+        left: 50%;
+        margin: 50px 0 0 -48%;
+        position: relative;
+        width: 96%;
+    }
+    .contents_pt {
+        float: left;
+        width: 680px;
+        margin-bottom: 90px;
+    }
+}
+/**---------------------------------959.99px입니다------------------------------------------**/
+@media (max-width:959.99px){
+    .navi_pt{
+        display: none;
+    }
+    .contents_cp {
+        float: left;
+        width: 100%;
+        margin-bottom: 90px;
+    }
+}
+/**---------------------------------659.99px입니다------------------------------------------**/
+@media (max-width:639.99px){
+    .contents_pt {
+        width: 100%;
+    }
+    .contents_wrap_pt {
+        margin: 10px 0 0 -48%;
+    }
+    .news_box_pt{
+        padding: 10px;
+    }
+    .news_box1{
+        background-position: center top;
+        background-size: 150px auto;
+        padding: 160px 0 0 0;
+    }
+    .news_box2{
+        background-position: center top;
+        background-size: 150px auto;
+        padding: 160px 0 0 0;
+    }
+    .news_box3{
+        background-position: center top;
+        background-size: 150px auto;
+        padding: 160px 0 0 0;
+    }
+    .sub_title_inner_pt h2 {
+        padding-top: 108px;
+    }
+    .smap_pt {
+        top: 145px;
+    }
+    .smap_pt li{
+        margin-right: 5px;
+    }
+    .smap_pt li a img{
+        margin-top: 3px;
+    }
+    .this{
+        font-size: 13px;
+    }
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+img{border: 0; max-width: 100%;}
+ol, ul, li{list-style-type: none;}
+a{text-decoration: none;}
+a:link{color: #f5f3e7; }
+a:visited{color: #f5f3e7;}
+a:hover{color: darkorange;}
+a:active{color: red;}
+ul li{
+    float: left;
+    margin-right: 10px;
+}
+
+/*전체 화면*/
+#wrap{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+#container{
+    width: 100%;
+}
+.sub_title_cs{
+    width: 100%;
+    height: 170px;
+    background: #ffffff;
+}
+.sub_title_bg_cs{
+    background: url(../image/sub/ms_sub_ttl_bg.jpg)
+}
+.sub_title_inner_cs{
+    width: 1100px;
+    height: 170px;
+    margin: 0 auto;
+    position: relative;
+}
+.sub_title_inner_cs h2{
+    font: bold 36px Avenir, Arial, georgia;
+    color: #222222;
+    padding-top: 116px;
+    position: relative;
+}
+.sub_title_inner_corperates{
+    width: 297px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: top;
+    max-width: 100%;
+}
+
+.smap_cs{
+    position: absolute;
+    right: 0;
+    top: 127px;
+}
+.smap li a:link{color: white;}
+.smap li a:visited{color: white;}
+.smap li a:hover{color: darkorange;}
+.smap li a:active{color: red;}
+
+.contents_wrap_cs{
+    left: 50%;
+    margin: 50px 0 0 -550px;
+    position: relative;
+    width: 1100px;
+}
+.contents_cs{
+    float: left;
+    width: 830px;
+    margin-bottom: 90px;
+}
+.contents_box_cs p{
+    margin-bottom: 40px;
+}
+.contents_box_cs p strong{
+    display: block;
+    margin: 20px 0 10px 0;
+    font-size: 18px;
+}
+.contents_box_cs p span{
+    display: block;
+    margin-top: -5px;
+    font-size: 14px;
+    color: #666;
+}
+.news_box_cs{
+    margin: 30px 0;
+    border: 1px solid #ddd;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.products_box{
+    padding-left: 127px;
+    background: url(../image/sub/icon_b2b6.png) 0 0 no-repeat;
+    background-size: 22.5% auto;
+    margin-bottom: 40px;
+}
+.products{
+    padding: 20px 20px 40px 65px;
+}
+.products dl dt{
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+}
+.products dl dd{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.products_btn{
+    margin-top: 15px;
+}
+.products_btn a{
+    background-color: #666;
+    border: 1px solid #666;
+    color: #fff;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    height: 28px;
+    line-height: 26px;
+    padding: 0 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.egift_box{
+    padding-left: 127px;
+    background: url(../image/sub/icon_b2b1.png) 0 0 no-repeat;
+    background-size: 22.5% auto;
+    margin-bottom: 40px;
+}
+.egift{
+    padding: 0px 20px 40px 65px;
+}
+.egift dl dt{
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+}
+.egift dl dd{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.egift_btn{
+    margin-top: 15px;
+}
+.egift_btn a{
+    background-color: #666;
+    border: 1px solid #666;
+    color: #fff;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    height: 28px;
+    line-height: 26px;
+    padding: 0 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.info_box_cs dl dt{
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+}
+.info_box_cs dl dd{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.navi_cs{
+    float: right;
+    font-weight: bold;
+    width: 220px;
+    margin-bottom: 90px;
+}
+.navi_cs > ul{
+    border-top: 2px solid #222;
+}
+.navi_cs > ul > li{
+    border-bottom: 1px solid #ddd;
+    width: 220px;
+    float: none;
+    margin-right: 0;
+}
+.navi_cs > ul > li > a{
+    color: #444;
+    display: block;
+    font-size: 14px;
+    padding: 20px 30px 20px 15px;
+    position: relative;
+    width: 220px;
+}
+.navi_cs > ul > li > a:hover{
+    color: #006633;
+    text-decoration: underline;
+}
+/**---------------------------------1099px입니다--------------------------------------------**/
+@media (max-width:1099px){
+    .sub_title_inner_cs{
+        width: 96%;
+        height: 170px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .contents_wrap_cs {
+        left: 50%;
+        margin: 50px 0 0 -48%;
+        position: relative;
+        width: 96%;
+    }
+    .contents_cs {
+        float: left;
+        width: 680px;
+        margin-bottom: 90px;
+    }
+}
+/**---------------------------------959.99px입니다------------------------------------------**/
+@media (max-width:959.99px){
+    .navi_cs{
+        display: none;
+    }
+    .contents_cs {
+        float: left;
+        width: 100%;
+        margin-bottom: 90px;
+    }
+}
+/**---------------------------------659.99px입니다------------------------------------------**/
+@media (max-width:639.99px){
+    .contents_wrap_cs {
+        margin: 10px 0 0 -48%;
+    }
+    .contents_box_cs p {
+        margin-bottom: 10px;
+    }
+    .contents_box_cs p strong {
+        margin: 0 0 10px 0;
+    }
+    .sub_title_inner_cs h2 {
+        padding-top: 108px;
+    }
+    .smap_cs {
+        top: 145px;
+    }
+    .news_box_cs {
+        padding-left: 0;
+    }
+    .products_box {
+        padding-left: 0;
+        background-size: 100% auto;
+    }
+    .products {
+        padding: 75% 20px 40px 15px;
+    }
+    .egift_box {
+        padding-left: 0;
+        background-size: 100% auto;
+        margin-bottom: 0;
+    }
+    .egift {
+        padding: 70% 20px 40px 15px;
+    }
+    .smap_cs li{
+        margin-right: 5px;
+    }
+    .smap_cs li a img{
+        margin-top: 3px;
+    }
+    .this{
+        font-size: 13px;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

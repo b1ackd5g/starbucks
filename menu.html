@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <title>Menu</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.js"></script>
+        <!--favicon-->
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <div id="wrap">
+            <!--상단내용 시작-->
+            <div id="header"></div>
+            <div id="container">
+                <div class="sub_title">
+                    <div class="sub_title_inner">
+                        <h2><img src="image/sub/menu_tit.jpg" alt="menu" class="sub_title_inner_menu"></h2>
+                        <ul class="smap">
+                            <li>
+                                <a href="index.html"><img src="image/sub/sub_icon_home.png"></a>
+                            </li>
+                            <li>
+                                <img src="image/sub/sub_icon_arrow.png">
+                            </li>
+                            <li>
+                                <a href="menu.html" class="this">MENU</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <section class="drink_wrap">
+                    <div class="drink_wrap_inner">
+                        <img class="m_pic" src="image/sub/m_menu_bimg1.jpg">
+                        <p class="drink_wrap_txt">
+                            <img class="w_pic" src="image/sub/menu_btxt1.png">
+                            <img class="m_pic" src="image/sub/m_menu_btxt1.png">
+                        </p>
+                        <div class="drink_wrap_btn">
+                            <a href="#">자세히 보기</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="food_wrap">
+                    <div class="food_wrap_inner">
+                        <img class="m_pic" src="image/sub/m_menu_bimg2.jpg">
+                        <p class="food_wrap_txt">
+                            <img class="w_pic" src="image/sub/menu_btxt2.png">
+                            <img class="m_pic" src="image/sub/m_menu_btxt2.png">
+                        </p>
+                        <div class="food_wrap_btn">
+                            <a href="#">자세히 보기</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="present_wrap">
+                    <div class="present_wrap_inner">
+                        <img class="m_pic" src="image/sub/m_menu_bimg3.jpg">
+                        <p class="present_wrap_txt">
+                            <img class="w_pic" src="image/sub/menu_btxt3.png">
+                            <img class="m_pic" src="image/sub/m_menu_btxt3.png">
+                        </p>
+                        <div class="present_wrap_btn">
+                            <a href="#">자세히 보기</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="card_wrap">
+                    <div class="card_wrap_inner">
+                        <img class="m_pic" src="image/sub/m_menu_bimg4.jpg">
+                        <p class="card_wrap_txt">
+                            <img class="w_pic" src="image/sub/menu_btxt4.png">
+                            <img class="m_pic" src="image/sub/m_menu_btxt4.png">
+                        </p>
+                        <div class="card_wrap_btn">
+                            <a href="#">자세히 보기</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="menu_s_wrap">
+                    <div class="menu_s_wrap_inner">
+                        <img class="m_pic" src="image/sub/m_teavana_img.jpg">
+                        <p class="menu_s_wrap_txt">
+                            <img class="w_pic" src="image/sub/teavana_txt.png">
+                            <img class="m_pic" src="image/sub/m_teavana_txt.png">
+                        </p>
+                        <div class="menu_s_wrap_btn">
+                            <a href="#">자세히 보기</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div id="footer"></div>
+            <script>
+                //페이지가 로드되면 실행
+                $(document).ready(function(){
+
+                    $("#header").load("header.html");
+                    $("#footer").load("footer.html");
+                    //header아이디에 header.html을 로드
+                });
+            </script>
+        </div>
+    </body>    
+</html>            
